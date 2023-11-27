@@ -25,11 +25,11 @@ class Circle {
     }
   
     getArea() {
-      return Math.PI * Math.pow(this.radius, 2);
+      return Math.PI * Math.pow(this.radius, 2);  //pi*r*r
     }
   
     getCircumference() {
-      return 2 * Math.PI * this.radius;
+      return 2 * Math.PI * this.radius;  //2*pi*r
     }
   }
   
