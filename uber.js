@@ -1,6 +1,7 @@
-//TASK 06    
+//TASK : 06
+//DATE : 27/11/2023   
     
-    //04) uber price calculater: ₹52.5 base fare, ₹6.3/km 
+//04) uber price calculater: ₹52.5 base fare, ₹6.3/km 
     class UberPriceCalculator {
         constructor(km) { 
             this.km = km;
