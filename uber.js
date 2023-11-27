@@ -1,6 +1,6 @@
 //TASK 06    
     
-    //uberX: ₹52.5 base fare, ₹6.3/km after 15 km
+    //uber: ₹52.5 base fare, ₹6.3/km 
     class UberPriceCalculator {
         constructor(km) { 
             this.km = km;
@@ -11,13 +11,13 @@
         
             let Rate = this.ratePerKm * this.km;
             let TripAmout = this.baseFare + Rate;
-          
-            return TripAmout;
+
+            return TripAmout; //147
         }
 
         getEstimatedTripAmount() {
-            let Totel = this.calculation();
-          
+            
+            let Totel = this.calculation(); 
             return `Your Estimated Uber Amount is ₹${Totel.toFixed(2)} for ${this.km} KM's` ;
             
         }
@@ -30,6 +30,7 @@
     console.log("Thanks for Using Uber Cab Services...!")
 
 
+//output --------------------------------------
 
-
-
+// Your Estimated Uber Amount is ₹147.00 for 15 KM's
+// Thanks for Using Uber Cab Services...!
