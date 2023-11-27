@@ -1,3 +1,7 @@
+//TASK : 06
+//DATE : 27/11/2023
+//1) Movie - Class
+
 class Movie {
     constructor(title, studio, rating) {
         this.title = title;
@@ -9,10 +13,15 @@ class Movie {
         return ` Movie  : ${this.title}\n Studio : ${this.studio}\n Rating : ${this.rating}`
     }
 }
-let movie1 = new Movie("Casino Royale", "Eon Productions",);
+let movie1 = new Movie("Casino Royale", "Eon Productions","PG-13");
 console.log(movie1.getPG());
 
 
+// output ----------------------------------
+
+// Movie  : Casino Royale
+// Studio : Eon Productions
+// Rating : PG-13
 
 
 
